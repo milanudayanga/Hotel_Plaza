@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Contact" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>صالة عرض</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="HyperLink100" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="HyperLink101" xml:space="preserve">
+    <value>غرف</value>
+  </data>
+  <data name="HyperLink102" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="HyperLink103" xml:space="preserve">
+    <value>اتصال</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>لدينا غرف ديلوكس على شرفات خاصة تطل مباشرة و جزئية البحر . الغرف فسيحة بما يكفي ل أريكة والكتابة خشبي طاولة صغيرة .</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>غرف الفاخرة مواقع الزاوية ، بحيث يصبح لديهم شرفات أكبر من ذلك بكثير و مناطق للجلوس. يحتوي الحمام على حوض استحمام مع دش المطر النفقات العامة ، و غرف الفاخرة مواقع الزاوية ، بحيث يصبح لديهم شرفات أكبر من ذلك بكثير و مناطق للجلوس. يحتوي الحمام على حوض استحمام مع دش المطر النفقات العامة ، و الموازين .</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>مع منطقة جلوس منفصلة و شرفة خاصة واسعة ، لدينا أجنحة توفر لك مساحة أكبر لنشر والاسترخاء . فهي مثالية للعائلات ، ونحن يمكن أن توفر سرير إضافي في منطقة الجلوس .</value>
+  </data>
+  <data name="Labelpay" xml:space="preserve">
+    <value>دفع آمن للأموال</value>
+  </data>
+  <data name="Labelsocl" xml:space="preserve">
+    <value>اجتماعي</value>
+  </data>
+  <data name="lblnav" xml:space="preserve">
+    <value>ملاحة</value>
+  </data>
+  <data name="LblSpecialOffer" xml:space="preserve">
+    <value>سجل معنا و احصل على خصم 20٪</value>
+  </data>
+  <data name="LblSrilanka" xml:space="preserve">
+    <value>سري ل انكا ( سيلان سابقا ) هي دولة جزيرة جنوب الهند في المحيط الهندي . وتتراوح في المناظر الطبيعية المتنوعة من الغابات المطيرة و الجافة السهول إلى المرتفعات الجبلية و الشواطئ الرملية . المشهور أنه ل أنقاضه البوذية القديمة ، بما في ذلك - 5th قرن قلعة سيجيريا ، مع القصر ، و اللوحات الجدارية . مدينة انورادهابورا ، عاصمة سري ل انكا القديمة ، والعديد من الآثار التي تعود إلى أكثر من 2000 سنة .</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="Rooms" xml:space="preserve">
+    <value>غرف</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>الاكثر شهره</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>الأخبار و الأحداث</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>الخصم متاح</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>انضم إلينا</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>عرض خاص</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>إنشاء الملف الشخصي</value>
+  </data>
+  <data name="Button1" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>غرفة ديلوكس</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>غرفة فاخرة</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>أجنحة</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>كتاب الان</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>كتاب الان</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>كتاب الان</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>كتاب الان</value>
+  </data>
+</root>

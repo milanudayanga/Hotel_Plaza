@@ -1,0 +1,1215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE2CEB15-9993-4BA3-9993-7ED4111FF77D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication8</RootNamespace>
+    <AssemblyName>WebApplication8</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminDel.aspx" />
+    <Content Include="AdminInboxDel.aspx" />
+    <Content Include="AdminManageBookings.aspx" />
+    <Content Include="AdminMessageBox.aspx" />
+    <Content Include="AdminPanel.aspx" />
+    <Content Include="AdminProfile.aspx" />
+    <Content Include="AdminRegistration.aspx" />
+    <Content Include="AdminSent.aspx" />
+    <Content Include="AdminUpdateFood.aspx" />
+    <Content Include="AdminUpdateUserDtl.aspx" />
+    <Content Include="App_Themes\Arabic\css\bootstrap.css" />
+    <Content Include="App_Themes\Arabic\css\jquery-ui.css" />
+    <Content Include="App_Themes\Arabic\css\style.css" />
+    <Content Include="App_Themes\Arabic\images\13.jpg" />
+    <Content Include="App_Themes\Arabic\images\14.jpg" />
+    <Content Include="App_Themes\Arabic\images\15.jpg" />
+    <Content Include="App_Themes\Arabic\images\16.jpg" />
+    <Content Include="App_Themes\Arabic\images\2.jpg" />
+    <Content Include="App_Themes\Arabic\images\3.jpg" />
+    <Content Include="App_Themes\Arabic\images\4.jpg" />
+    <Content Include="App_Themes\Arabic\images\5.jpg" />
+    <Content Include="App_Themes\Arabic\images\6.jpg" />
+    <Content Include="App_Themes\Arabic\images\7.jpg" />
+    <Content Include="App_Themes\Arabic\images\8.jpg" />
+    <Content Include="App_Themes\Arabic\images\9.jpg" />
+    <Content Include="App_Themes\Arabic\images\box.png" />
+    <Content Include="App_Themes\Arabic\images\box1.png" />
+    <Content Include="App_Themes\Arabic\images\cards.png" />
+    <Content Include="App_Themes\Arabic\images\d-arrow.png" />
+    <Content Include="App_Themes\Arabic\images\Deluxe-Room.jpg" />
+    <Content Include="App_Themes\Arabic\images\galleFort.jpg" />
+    <Content Include="App_Themes\Arabic\images\History-of-Kaaba-Mecca-Saudi-Arabia.jpg" />
+    <Content Include="App_Themes\Arabic\images\Junior-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Arabic\images\Luxury-Room-Opt-2.jpg" />
+    <Content Include="App_Themes\Arabic\images\Luxury-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Arabic\images\search.png" />
+    <Content Include="App_Themes\Arabic\images\soci.png" />
+    <Content Include="App_Themes\Arabic\images\tick1.png" />
+    <Content Include="App_Themes\Arabic\js\bootstrap.js" />
+    <Content Include="App_Themes\Arabic\js\classie.js" />
+    <Content Include="App_Themes\Arabic\js\jquery-1.11.1.min.js" />
+    <Content Include="App_Themes\Arabic\js\jquery-ui.js" />
+    <Content Include="App_Themes\Arabic\js\uisearch.js" />
+    <Content Include="App_Themes\French\css\bootstrap.css" />
+    <Content Include="App_Themes\French\css\jquery-ui.css" />
+    <Content Include="App_Themes\French\css\style.css" />
+    <Content Include="App_Themes\French\images\13.jpg" />
+    <Content Include="App_Themes\French\images\14.jpg" />
+    <Content Include="App_Themes\French\images\15.jpg" />
+    <Content Include="App_Themes\French\images\16.jpg" />
+    <Content Include="App_Themes\French\images\2.jpg" />
+    <Content Include="App_Themes\French\images\3.jpg" />
+    <Content Include="App_Themes\French\images\4.jpg" />
+    <Content Include="App_Themes\French\images\5.jpg" />
+    <Content Include="App_Themes\French\images\6.jpg" />
+    <Content Include="App_Themes\French\images\7.jpg" />
+    <Content Include="App_Themes\French\images\8.jpg" />
+    <Content Include="App_Themes\French\images\9.jpg" />
+    <Content Include="App_Themes\French\images\box.png" />
+    <Content Include="App_Themes\French\images\box1.png" />
+    <Content Include="App_Themes\French\images\cards.png" />
+    <Content Include="App_Themes\French\images\d-arrow.png" />
+    <Content Include="App_Themes\French\images\Deluxe-Room.jpg" />
+    <Content Include="App_Themes\French\images\ESSCA.jpg" />
+    <Content Include="App_Themes\French\images\galleFort.jpg" />
+    <Content Include="App_Themes\French\images\Junior-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\French\images\Luxury-Room-Opt-2.jpg" />
+    <Content Include="App_Themes\French\images\Luxury-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\French\images\search.png" />
+    <Content Include="App_Themes\French\images\soci.png" />
+    <Content Include="App_Themes\French\images\tick1.png" />
+    <Content Include="App_Themes\French\js\bootstrap.js" />
+    <Content Include="App_Themes\French\js\classie.js" />
+    <Content Include="App_Themes\French\js\jquery-1.11.1.min.js" />
+    <Content Include="App_Themes\French\js\jquery-ui.js" />
+    <Content Include="App_Themes\French\js\uisearch.js" />
+    <Content Include="App_Themes\Theme 00\css\bootstrap.css" />
+    <Content Include="App_Themes\Theme 00\css\jquery-ui.css" />
+    <Content Include="App_Themes\Theme 00\css\style.css" />
+    <Content Include="App_Themes\Theme 00\images\13.jpg" />
+    <Content Include="App_Themes\Theme 00\images\14.jpg" />
+    <Content Include="App_Themes\Theme 00\images\15.jpg" />
+    <Content Include="App_Themes\Theme 00\images\16.jpg" />
+    <Content Include="App_Themes\Theme 00\images\2.jpg" />
+    <Content Include="App_Themes\Theme 00\images\3.jpg" />
+    <Content Include="App_Themes\Theme 00\images\4.jpg" />
+    <Content Include="App_Themes\Theme 00\images\5.jpg" />
+    <Content Include="App_Themes\Theme 00\images\6.jpg" />
+    <Content Include="App_Themes\Theme 00\images\7.jpg" />
+    <Content Include="App_Themes\Theme 00\images\8.jpg" />
+    <Content Include="App_Themes\Theme 00\images\9.jpg" />
+    <Content Include="App_Themes\Theme 00\images\box.png" />
+    <Content Include="App_Themes\Theme 00\images\box1.png" />
+    <Content Include="App_Themes\Theme 00\images\cards.png" />
+    <Content Include="App_Themes\Theme 00\images\d-arrow.png" />
+    <Content Include="App_Themes\Theme 00\images\Deluxe-Room.jpg" />
+    <Content Include="App_Themes\Theme 00\images\galleFort.jpg" />
+    <Content Include="App_Themes\Theme 00\images\Junior-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Theme 00\images\Luxury-Room-Opt-2.jpg" />
+    <Content Include="App_Themes\Theme 00\images\Luxury-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Theme 00\images\search.png" />
+    <Content Include="App_Themes\Theme 00\images\soci.png" />
+    <Content Include="App_Themes\Theme 00\images\tick1.png" />
+    <Content Include="App_Themes\Theme 00\js\bootstrap.js" />
+    <Content Include="App_Themes\Theme 00\js\classie.js" />
+    <Content Include="App_Themes\Theme 00\js\jquery-1.11.1.min.js" />
+    <Content Include="App_Themes\Theme 00\js\jquery-ui.js" />
+    <Content Include="App_Themes\Theme 00\js\uisearch.js" />
+    <Content Include="App_Themes\Theme 01\css\bootstrap.css" />
+    <Content Include="App_Themes\Theme 01\css\jquery-ui.css" />
+    <Content Include="App_Themes\Theme 01\css\style.css" />
+    <Content Include="App_Themes\Theme 01\images\13.jpg" />
+    <Content Include="App_Themes\Theme 01\images\14.jpg" />
+    <Content Include="App_Themes\Theme 01\images\15.jpg" />
+    <Content Include="App_Themes\Theme 01\images\16.jpg" />
+    <Content Include="App_Themes\Theme 01\images\2.jpg" />
+    <Content Include="App_Themes\Theme 01\images\3.jpg" />
+    <Content Include="App_Themes\Theme 01\images\4.jpg" />
+    <Content Include="App_Themes\Theme 01\images\5.jpg" />
+    <Content Include="App_Themes\Theme 01\images\6.jpg" />
+    <Content Include="App_Themes\Theme 01\images\7.jpg" />
+    <Content Include="App_Themes\Theme 01\images\8.jpg" />
+    <Content Include="App_Themes\Theme 01\images\9.jpg" />
+    <Content Include="App_Themes\Theme 01\images\box.png" />
+    <Content Include="App_Themes\Theme 01\images\box1.png" />
+    <Content Include="App_Themes\Theme 01\images\cards.png" />
+    <Content Include="App_Themes\Theme 01\images\d-arrow.png" />
+    <Content Include="App_Themes\Theme 01\images\Deluxe-Room.jpg" />
+    <Content Include="App_Themes\Theme 01\images\galleFort.jpg" />
+    <Content Include="App_Themes\Theme 01\images\Junior-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Theme 01\images\Luxury-Room-Opt-2.jpg" />
+    <Content Include="App_Themes\Theme 01\images\Luxury-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Theme 01\images\search.png" />
+    <Content Include="App_Themes\Theme 01\images\soci.png" />
+    <Content Include="App_Themes\Theme 01\images\tick1.png" />
+    <Content Include="App_Themes\Theme 01\js\bootstrap.js" />
+    <Content Include="App_Themes\Theme 01\js\classie.js" />
+    <Content Include="App_Themes\Theme 01\js\jquery-1.11.1.min.js" />
+    <Content Include="App_Themes\Theme 01\js\jquery-ui.js" />
+    <Content Include="App_Themes\Theme 01\js\uisearch.js" />
+    <Content Include="App_Themes\Theme 02\css\bootstrap.css" />
+    <Content Include="App_Themes\Theme 02\css\jquery-ui.css" />
+    <Content Include="App_Themes\Theme 02\css\style.css" />
+    <Content Include="App_Themes\Theme 02\images\13.jpg" />
+    <Content Include="App_Themes\Theme 02\images\14.jpg" />
+    <Content Include="App_Themes\Theme 02\images\15.jpg" />
+    <Content Include="App_Themes\Theme 02\images\16.jpg" />
+    <Content Include="App_Themes\Theme 02\images\2.jpg" />
+    <Content Include="App_Themes\Theme 02\images\3.jpg" />
+    <Content Include="App_Themes\Theme 02\images\4.jpg" />
+    <Content Include="App_Themes\Theme 02\images\5.jpg" />
+    <Content Include="App_Themes\Theme 02\images\6.jpg" />
+    <Content Include="App_Themes\Theme 02\images\7.jpg" />
+    <Content Include="App_Themes\Theme 02\images\8.jpg" />
+    <Content Include="App_Themes\Theme 02\images\9.jpg" />
+    <Content Include="App_Themes\Theme 02\images\box.png" />
+    <Content Include="App_Themes\Theme 02\images\box1.png" />
+    <Content Include="App_Themes\Theme 02\images\cards.png" />
+    <Content Include="App_Themes\Theme 02\images\d-arrow.png" />
+    <Content Include="App_Themes\Theme 02\images\Deluxe-Room.jpg" />
+    <Content Include="App_Themes\Theme 02\images\galleFort.jpg" />
+    <Content Include="App_Themes\Theme 02\images\graypic.jpg" />
+    <Content Include="App_Themes\Theme 02\images\Junior-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Theme 02\images\Luxury-Room-Opt-2.jpg" />
+    <Content Include="App_Themes\Theme 02\images\Luxury-Suite-Bedroom.jpg" />
+    <Content Include="App_Themes\Theme 02\images\search.png" />
+    <Content Include="App_Themes\Theme 02\images\soci.png" />
+    <Content Include="App_Themes\Theme 02\images\tick1.png" />
+    <Content Include="App_Themes\Theme 02\js\bootstrap.js" />
+    <Content Include="App_Themes\Theme 02\js\classie.js" />
+    <Content Include="App_Themes\Theme 02\js\jquery-1.11.1.min.js" />
+    <Content Include="App_Themes\Theme 02\js\jquery-ui.js" />
+    <Content Include="App_Themes\Theme 02\js\uisearch.js" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\jquery-1.10.2.js" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\style.css" />
+    <Content Include="FoodDetails.aspx" />
+    <EmbeddedResource Include="ForgotPassword.aspx" />
+    <Content Include="IImages\20160206-fried-rice-food-lab-67-thumb-1500xauto-429662.jpg" />
+    <Content Include="IImages\download.jpg" />
+    <Content Include="IImages\Jolada-Rotti-10.jpg" />
+    <Content Include="IImages\kottu.jpg" />
+    <Content Include="IImages\o.jpg" />
+    <Content Include="images\Deluxe-Room.jpg" />
+    <Content Include="images\heritance-kandalama-01.jpg" />
+    <Content Include="images\Wedding1.jpg" />
+    <Content Include="mp3\test1.mp3" />
+    <Content Include="SubGalleryEvent.aspx" />
+    <Content Include="UserMessageBox.aspx" />
+    <Content Include="UserNewMessage.aspx" />
+    <Content Include="UserSentMessages.aspx" />
+    <Content Include="UserSentMsgDel.aspx" />
+    <Content Include="UserSettings.aspx" />
+    <Content Include="ViewAllUsers.aspx" />
+    <Content Include="AdminNewMessage.aspx" />
+    <Content Include="UserViewBookings.aspx" />
+    <Content Include="Check_Availability.aspx" />
+    <Content Include="AdminMsgDel.aspx" />
+    <Content Include="AdminSentMsgDel.aspx" />
+    <Content Include="_include\img\work\full\ex1.jpg" />
+    <Content Include="_include\img\work\full\ex2.jpg" />
+    <Content Include="_include\img\work\full\fac1.jpg" />
+    <Content Include="_include\img\work\full\fac2.jpg" />
+    <Content Include="_include\img\work\full\fac3.jpg" />
+    <Content Include="_include\img\work\full\fac4.jpg" />
+    <Content Include="_include\img\profile\foo1.jpg" />
+    <Content Include="_include\img\profile\foo2.jpg" />
+    <Content Include="_include\img\profile\foo3.jpg" />
+    <Content Include="_include\img\work\full\ph02.jpg" />
+    <Content Include="_include\img\work\full\pho1.jpg" />
+    <Content Include="_include\img\work\full\pho3.jpg" />
+    <Content Include="images\galleFort.jpg" />
+    <Content Include="images\Junior-Suite-Bedroom.jpg" />
+    <Content Include="images\Luxury-Room-Opt-2.jpg" />
+    <Content Include="images\Luxury-Suite-Bedroom.jpg" />
+    <Content Include="js\uisearch.js" />
+    <Content Include="LuxuryRoom.aspx" />
+    <Content Include="Luxury-Suites.aspx" />
+    <Content Include="Gallery.aspx" />
+    <Content Include="SubGallery.aspx" />
+    <Content Include="UpdateDetails.aspx" />
+    <Content Include="Deluxe-Room.aspx" />
+    <Content Include="Blank.aspx" />
+    <Content Include="Suites.aspx" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="_include\css\bootstrap-responsive.min.css" />
+    <Content Include="_include\css\bootstrap.min.css" />
+    <Content Include="_include\css\fancybox\blank.gif" />
+    <Content Include="_include\css\fancybox\fancybox_loading.gif" />
+    <Content Include="_include\css\fancybox\fancybox_overlay.png" />
+    <Content Include="_include\css\fancybox\fancybox_sprite.png" />
+    <Content Include="_include\css\fancybox\jquery.fancybox.css" />
+    <Content Include="_include\css\fonts.css" />
+    <Content Include="_include\css\fonts\Icons.svg" />
+    <Content Include="_include\css\main.css" />
+    <Content Include="_include\css\responsive.css" />
+    <Content Include="_include\css\shortcodes.css" />
+    <Content Include="_include\css\supersized.css" />
+    <Content Include="_include\css\supersized.shutter.css" />
+    <Content Include="_include\img\filter-icon.png" />
+    <Content Include="_include\img\filter-icon_%402x.png" />
+    <Content Include="_include\img\galleFort.jpg" />
+    <Content Include="_include\img\logo.png" />
+    <Content Include="_include\img\logo_%402x.png" />
+    <Content Include="_include\img\menu-mobile.png" />
+    <Content Include="_include\img\menu-mobile_%402x.png" />
+    <Content Include="_include\img\profile\profile-01.jpg" />
+    <Content Include="_include\img\profile\profile-02.jpg" />
+    <Content Include="_include\img\profile\profile-03.jpg" />
+    <Content Include="_include\img\slider-images\image01.jpg" />
+    <Content Include="_include\img\slider-images\image02.jpg" />
+    <Content Include="_include\img\slider-images\image03.jpg" />
+    <Content Include="_include\img\slider-images\image04.jpg" />
+    <Content Include="_include\img\supersized\back.png" />
+    <Content Include="_include\img\supersized\bg-black.png" />
+    <Content Include="_include\img\supersized\bg-hover.png" />
+    <Content Include="_include\img\supersized\button-tray-down.png" />
+    <Content Include="_include\img\supersized\button-tray-up.png" />
+    <Content Include="_include\img\supersized\forward.png" />
+    <Content Include="_include\img\supersized\nav-bg.png" />
+    <Content Include="_include\img\supersized\nav-dot.png" />
+    <Content Include="_include\img\supersized\pause.png" />
+    <Content Include="_include\img\supersized\play.png" />
+    <Content Include="_include\img\supersized\progress-back.png" />
+    <Content Include="_include\img\supersized\progress-bar.png" />
+    <Content Include="_include\img\supersized\progress.gif" />
+    <Content Include="_include\img\supersized\supersized-logo.png" />
+    <Content Include="_include\img\supersized\thumb-back.png" />
+    <Content Include="_include\img\supersized\thumb-forward.png" />
+    <Content Include="_include\img\work\full\image-01-full.jpg" />
+    <Content Include="_include\img\work\full\image-02-full.jpg" />
+    <Content Include="_include\img\work\full\image-03-full.jpg" />
+    <Content Include="_include\img\work\full\image-04-full.jpg" />
+    <Content Include="_include\img\work\full\image-05-full.jpg" />
+    <Content Include="_include\img\work\full\image-06-full.jpg" />
+    <Content Include="_include\img\work\full\image-07-full.jpg" />
+    <Content Include="_include\img\work\full\wed1.jpg" />
+    <Content Include="_include\img\work\full\wed2.jpg" />
+    <Content Include="_include\img\work\full\wed3.jpg" />
+    <Content Include="_include\img\work\full\wed4.jpg" />
+    <Content Include="_include\img\work\full\wed5.jpg" />
+    <Content Include="_include\img\work\full\wed6.jpg" />
+    <Content Include="_include\img\work\thumbs\ex1.jpg" />
+    <Content Include="_include\img\work\thumbs\ex2.jpg" />
+    <Content Include="_include\img\work\thumbs\fac1.jpg" />
+    <Content Include="_include\img\work\thumbs\fac2.jpg" />
+    <Content Include="_include\img\work\thumbs\fac3.jpg" />
+    <Content Include="_include\img\work\thumbs\fac4.jpg" />
+    <Content Include="_include\img\work\thumbs\ph02.jpg" />
+    <Content Include="_include\img\work\thumbs\pho1.jpg" />
+    <Content Include="_include\img\work\thumbs\pho3.jpg" />
+    <Content Include="_include\img\work\thumbs\wed1.jpg" />
+    <Content Include="_include\img\work\thumbs\wed2.jpg" />
+    <Content Include="_include\img\work\thumbs\wed3.jpg" />
+    <Content Include="_include\img\work\thumbs\wed4.jpg" />
+    <Content Include="_include\img\work\thumbs\wed5.jpg" />
+    <Content Include="_include\img\work\thumbs\wed6.jpg" />
+    <Content Include="_include\js\bootstrap.min.js" />
+    <Content Include="_include\js\jquery.fancybox-media.js" />
+    <Content Include="_include\js\jquery.fancybox.pack.js" />
+    <Content Include="_include\js\jquery.isotope.js" />
+    <Content Include="_include\js\jquery.tweet.js" />
+    <Content Include="_include\js\main.js" />
+    <Content Include="_include\js\modernizr.js" />
+    <Content Include="_include\js\placeholder.js" />
+    <Content Include="_include\js\plugins.js" />
+    <Content Include="_include\js\supersized.3.2.7.min.js" />
+    <Content Include="_include\js\waypoints-sticky.js" />
+    <Content Include="_include\js\waypoints.js" />
+    <Content Include="Site1.Master" />
+    <Content Include="UserSite.Master" />
+    <Content Include="Handler1.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="_include\css\fonts\.DS_Store" />
+    <Content Include="_include\css\fonts\Icons.eot" />
+    <Content Include="_include\css\fonts\Icons.ttf" />
+    <Content Include="_include\css\fonts\Icons.woff" />
+    <Content Include="_include\img\.DS_Store" />
+    <Content Include="_include\img\slider-images\.DS_Store" />
+    <Content Include="_include\img\supersized\.DS_Store" />
+    <Content Include="_include\js\.DS_Store" />
+    <Content Include="_include\js\twitter\index.php" />
+    <Content Include="_include\js\twitter\lib\tmhOAuth.php" />
+    <Content Include="_include\js\twitter\lib\tmhUtilities.php" />
+    <Content Include="_include\php\.DS_Store" />
+    <Content Include="_include\php\contact.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contact.aspx" />
+    <Content Include="images\13.jpg" />
+    <Content Include="images\14.jpg" />
+    <Content Include="images\15.jpg" />
+    <Content Include="images\16.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\box.png" />
+    <Content Include="images\box1.png" />
+    <Content Include="images\cards.png" />
+    <Content Include="images\d-arrow.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\soci.png" />
+    <Content Include="images\tick1.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\classie.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="Register.aspx" />
+    <Content Include="Rooms.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="UserProfileSettings.aspx" />
+    <Content Include="ViewAllMessages.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Index.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDel.aspx.cs">
+      <DependentUpon>AdminDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDel.aspx.designer.cs">
+      <DependentUpon>AdminDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInboxDel.aspx.cs">
+      <DependentUpon>AdminInboxDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInboxDel.aspx.designer.cs">
+      <DependentUpon>AdminInboxDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManageBookings.aspx.cs">
+      <DependentUpon>AdminManageBookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminManageBookings.aspx.designer.cs">
+      <DependentUpon>AdminManageBookings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMessageBox.aspx.cs">
+      <DependentUpon>AdminMessageBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMessageBox.aspx.designer.cs">
+      <DependentUpon>AdminMessageBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.aspx.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.aspx.designer.cs">
+      <DependentUpon>AdminPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfile.aspx.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminProfile.aspx.designer.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegistration.aspx.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRegistration.aspx.designer.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSent.aspx.cs">
+      <DependentUpon>AdminSent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSent.aspx.designer.cs">
+      <DependentUpon>AdminSent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateFood.aspx.cs">
+      <DependentUpon>AdminUpdateFood.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateFood.aspx.designer.cs">
+      <DependentUpon>AdminUpdateFood.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateUserDtl.aspx.cs">
+      <DependentUpon>AdminUpdateUserDtl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateUserDtl.aspx.designer.cs">
+      <DependentUpon>AdminUpdateUserDtl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ForgotPassword.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForgotPassword.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ForgotPassword.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForgotPassword.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ForgotPassword.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForgotPassword.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ForgotPassword.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForgotPassword.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Contact.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contact.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Contact.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contact.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Contact.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contact.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Contact.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Contact.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Deluxe-Room.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Deluxe-Room.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Deluxe-Room.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Deluxe-Room.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Deluxe-Room.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Deluxe-Room.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Deluxe-Room.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Deluxe-Room.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FoodDetails.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodDetails.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FoodDetails.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodDetails.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FoodDetails.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodDetails.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FoodDetails.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodDetails.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Gallery.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gallery.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Gallery.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gallery.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Gallery.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gallery.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Gallery.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gallery.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Index.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Index.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Index.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Index.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Luxury-Suites.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Luxury-Suites.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Luxury-Suites.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Luxury-Suites.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Luxury-Suites.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Luxury-Suites.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Luxury-Suites.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Luxury-Suites.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LuxuryRoom.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LuxuryRoom.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LuxuryRoom.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LuxuryRoom.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LuxuryRoom.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LuxuryRoom.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LuxuryRoom.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LuxuryRoom.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Register.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Register.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Register.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Register.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Register.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Register.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Register.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Register.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Rooms.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rooms.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Rooms.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rooms.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Rooms.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rooms.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Rooms.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rooms.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\SignIn.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignIn.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\SignIn.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignIn.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\SignIn.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignIn.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\SignIn.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignIn.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Suites.fr-FR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Suites.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Suites.ar-AE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Suites.ar-AE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Suites.en-US.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Suites.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Suites.hi-IN.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Suites.hi-IN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FoodDetails.aspx.cs">
+      <DependentUpon>FoodDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FoodDetails.aspx.designer.cs">
+      <DependentUpon>FoodDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LuxuryRoom.aspx.cs">
+      <DependentUpon>LuxuryRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LuxuryRoom.aspx.designer.cs">
+      <DependentUpon>LuxuryRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Luxury-Suites.aspx.cs">
+      <DependentUpon>Luxury-Suites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Luxury-Suites.aspx.designer.cs">
+      <DependentUpon>Luxury-Suites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms.aspx.cs">
+      <DependentUpon>Rooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rooms.aspx.designer.cs">
+      <DependentUpon>Rooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SubGallery.aspx.cs">
+      <DependentUpon>SubGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubGallery.aspx.designer.cs">
+      <DependentUpon>SubGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubGalleryEvent.aspx.cs">
+      <DependentUpon>SubGalleryEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubGalleryEvent.aspx.designer.cs">
+      <DependentUpon>SubGalleryEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDetails.aspx.cs">
+      <DependentUpon>UpdateDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateDetails.aspx.designer.cs">
+      <DependentUpon>UpdateDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMessageBox.aspx.cs">
+      <DependentUpon>UserMessageBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMessageBox.aspx.designer.cs">
+      <DependentUpon>UserMessageBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserNewMessage.aspx.cs">
+      <DependentUpon>UserNewMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNewMessage.aspx.designer.cs">
+      <DependentUpon>UserNewMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfileSettings.aspx.cs">
+      <DependentUpon>UserProfileSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfileSettings.aspx.designer.cs">
+      <DependentUpon>UserProfileSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSentMessages.aspx.cs">
+      <DependentUpon>UserSentMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSentMessages.aspx.designer.cs">
+      <DependentUpon>UserSentMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSentMsgDel.aspx.cs">
+      <DependentUpon>UserSentMsgDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSentMsgDel.aspx.designer.cs">
+      <DependentUpon>UserSentMsgDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSettings.aspx.cs">
+      <DependentUpon>UserSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSettings.aspx.designer.cs">
+      <DependentUpon>UserSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSite.Master.cs">
+      <DependentUpon>UserSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSite.Master.designer.cs">
+      <DependentUpon>UserSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllMessages.aspx.cs">
+      <DependentUpon>ViewAllMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAllMessages.aspx.designer.cs">
+      <DependentUpon>ViewAllMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAllUsers.aspx.cs">
+      <DependentUpon>ViewAllUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAllUsers.aspx.designer.cs">
+      <DependentUpon>ViewAllUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deluxe-Room.aspx.cs">
+      <DependentUpon>Deluxe-Room.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deluxe-Room.aspx.designer.cs">
+      <DependentUpon>Deluxe-Room.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blank.aspx.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blank.aspx.designer.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Suites.aspx.cs">
+      <DependentUpon>Suites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suites.aspx.designer.cs">
+      <DependentUpon>Suites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminNewMessage.aspx.cs">
+      <DependentUpon>AdminNewMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminNewMessage.aspx.designer.cs">
+      <DependentUpon>AdminNewMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserViewBookings.aspx.cs">
+      <DependentUpon>UserViewBookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserViewBookings.aspx.designer.cs">
+      <DependentUpon>UserViewBookings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Check_Availability.aspx.cs">
+      <DependentUpon>Check_Availability.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Check_Availability.aspx.designer.cs">
+      <DependentUpon>Check_Availability.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMsgDel.aspx.cs">
+      <DependentUpon>AdminMsgDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMsgDel.aspx.designer.cs">
+      <DependentUpon>AdminMsgDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSentMsgDel.aspx.cs">
+      <DependentUpon>AdminSentMsgDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSentMsgDel.aspx.designer.cs">
+      <DependentUpon>AdminSentMsgDel.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinessLayer\BusinessLayer.csproj">
+      <Project>{501424b7-f099-4287-afa5-26a9a0e878d6}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+      <Project>{6d396c10-bce5-45d1-afc2-fbdb3af57a8a}</Project>
+      <Name>EntityLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\ForgotPassword.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ForgotPassword.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\ForgotPassword.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ForgotPassword.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\ForgotPassword.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ForgotPassword.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Contact.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Contact.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Contact.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Contact.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Contact.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Contact.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Contact.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Contact.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Deluxe-Room.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Deluxe-Room.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Deluxe-Room.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Deluxe-Room.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Deluxe-Room.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Deluxe-Room.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Deluxe-Room.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Deluxe-Room.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\FoodDetails.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FoodDetails.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\FoodDetails.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FoodDetails.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\FoodDetails.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FoodDetails.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\FoodDetails.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FoodDetails.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\ForgotPassword.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ForgotPassword.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Gallery.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Gallery.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Gallery.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Gallery.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Gallery.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Gallery.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Gallery.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Gallery.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Index.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Index.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Index.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Index.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Index.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Index.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Index.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Index.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Luxury-Suites.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Luxury-Suites.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Luxury-Suites.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Luxury-Suites.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Luxury-Suites.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Luxury-Suites.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Luxury-Suites.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Luxury-Suites.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\LuxuryRoom.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LuxuryRoom.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\LuxuryRoom.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LuxuryRoom.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\LuxuryRoom.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LuxuryRoom.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\LuxuryRoom.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LuxuryRoom.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Register.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Register.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Register.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Register.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Register.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Register.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Register.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Register.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Rooms.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Rooms.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Rooms.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Rooms.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Rooms.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Rooms.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Rooms.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Rooms.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\SignIn.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>SignIn.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\SignIn.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>SignIn.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\SignIn.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>SignIn.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\SignIn.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>SignIn.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Suites.en-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Suites.en-US.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Suites.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Suites.fr-FR.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Suites.hi-IN.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Suites.hi-IN.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_GlobalResources\Suites.ar-AE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Suites.ar-AE.designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62541</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62541/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Contact" xml:space="preserve">
+    <value>संपर्क करें</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>गेलरी</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>घर</value>
+  </data>
+  <data name="HyperLink100" xml:space="preserve">
+    <value>घर</value>
+  </data>
+  <data name="HyperLink101" xml:space="preserve">
+    <value>कमरा</value>
+  </data>
+  <data name="HyperLink102" xml:space="preserve">
+    <value>साइन इन करें</value>
+  </data>
+  <data name="HyperLink103" xml:space="preserve">
+    <value>संपर्क करें</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>श्रीलंका में एक प्रीमियर बीच रिसॉर्ट के रूप में, हमारे डीलक्स कमरे आंशिक समुद्र को देखने के साथ निजी बालकनी है । कमरों में भी एक छोटे लकड़ी के सोफे और लिखने की मेज के लिए काफी विशाल हैं।</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>अभी बुक करें</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>अभी बुक करें</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>अभी बुक करें</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>लक्जरी कमरे</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>लक्जरी सूट</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>में एक परिवार रात या मनोरंजक दोस्तों के लिए एकदम सही - हमारे विशाल लक्जरी सूट डीवीडी प्लेयर और होम थिएटर सिस्टम के साथ अलग रहने कमरे है।
+नहीं, प्रतीक्षा, बाथरूम का उपयोग करने के लिए , या तो के रूप में यह जुड़वां घाटियों, जकूजी और अलग रेन कक्ष के साथ आता है । हमारी अच्छी तरह से डिजाइन लक्जरी सुइट्स आप सबसे अच्छा आराम और बेहतरीन सुविधाओं श्रीलंका में कोई बीच रिसॉर्ट की पेशकश कर सकता प्रदान करते हैं।</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>सूट</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>एक अलग बैठक क्षेत्र और एक विशाल निजी बालकनी के साथ, हमारे सूट बाहर फैला है और आराम करने के लिए और अधिक स्थान प्रदान करते हैं। वे परिवारों के लिए आदर्श होते हैं के रूप में हम बैठे क्षेत्र में एक अतिरिक्त बिस्तर प्रदान कर सकते हैं ।
+बाथरूम एक बाथटब और अलग रेन शॉवर क्यूबिकल है। इन सभी आधुनिक सुविधाओं के साथ हम आपको सबसे अच्छा आवास की सुविधा श्रीलंका में किसी भी लक्जरी रिसॉर्ट प्रदान कर सकता है दे।</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>डी एस कक्ष</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>श्रीलंका में एक प्रीमियर बीच रिसॉर्ट के रूप में, हमारे डीलक्स कमरे आंशिक समुद्र को देखने के साथ निजी बालकनी है । कमरों में भी एक छोटे लकड़ी के सोफे और लिखने की मेज के लिए काफी विशाल हैं।</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>अभी बुक करें</value>
+  </data>
+  <data name="Labelpay" xml:space="preserve">
+    <value>भुगतान सुरक्षित</value>
+  </data>
+  <data name="Labelsocl" xml:space="preserve">
+    <value>सामाजिक</value>
+  </data>
+  <data name="lblnav" xml:space="preserve">
+    <value>पथ प्रदर्शन</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>प्रोफाइल</value>
+  </data>
+  <data name="Rooms" xml:space="preserve">
+    <value>कमरा</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>साइन इन करें</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>• सर्वश्रेष्ठ दर की गारंटी</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>• सर्वश्रेष्ठ दर की गारंटी</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>• सर्वश्रेष्ठ दर की गारंटी</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>• सर्वश्रेष्ठ दर की गारंटी</value>
+  </data>
+</root>
